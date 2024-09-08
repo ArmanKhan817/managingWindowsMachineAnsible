@@ -15,6 +15,7 @@ Ubuntu instance up and running.
 Fig 1: High level architecture of managing Windows machine using Ansible.
 
 ![image](https://github.com/user-attachments/assets/e43958ba-8ab6-43d0-976e-5b61c3fb360b)
+
 Fig 2: Install Putty to Windows machine using Ansible 
 
 **Step 1: Install SSH Server in all Windows machines**
