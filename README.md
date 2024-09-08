@@ -30,8 +30,10 @@ Download the 'installSSH.ps1' script and run PowerShell as Administrator to exec
 5.	Choose Create.
 
 **Step 3: Add sample code to your CodeCommit repository.**
-1.	Open putty and connect to ubuntu instances.
-2.	Type sudo su, out the password.
-3.	Type mkdir to create folder.
-4.	Type cd to go inside the folder and use nano filename to create below file.
+1. Open PuTTY and connect to your Ubuntu instance.
+2. Elevate to superuser by typing sudo su and entering your password.
+3. Use mkdir <folder_name> to create a new folder.
+4. Navigate into the folder using cd <folder_name>, then create files using nano <filename>.
+5. Download and paste the content of the following files: appspec.yml, run_playbook.sh, Win_server.ini, Win_pos.ini, and downloadPutty.yml.
+
 
