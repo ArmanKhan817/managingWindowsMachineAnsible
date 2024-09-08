@@ -67,20 +67,7 @@ Select disable Auto-assign Public IP
 Next to Assign a security group, choose Select existing security group.
 8.	Expand Advanced details. In IAM instance profile, choose the IAM role EC2InstanceRole.
 9.	Under Summary, under Number of instances, enter 1.
-10.	Put the following bash script in user data.
-
-#!/bin/bash
-sudo yum -y update
-sudo yum install -y ruby
-sudo yum install -y aws-cli
-sudo yum install -y ansible
-cd/home/ubuntu
-aws s3 cp s3://aws-codedeploy-ap-southeast-2/latest/install --region ap-southeast-2
-chmod +x./install
-./install auto
-ssh-keygen -t rsa -b 4096	
-chmod 600 ~/.ssh/id_rsa
-
+10.	Download the userData.bash scrip and put the content in user data.
 11.	Choose Launch instance.
 
 **Step 5: Create an application in CodeDeploy.**
