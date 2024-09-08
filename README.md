@@ -1,2 +1,2 @@
-# managingWindowsMachineAnsible
-Managing Windows Machine Using Ansible
+# Managing Windows Machine using Ansible Playbook
+
