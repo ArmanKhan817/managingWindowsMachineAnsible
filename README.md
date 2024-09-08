@@ -112,6 +112,6 @@ Choose **Next**.
 
 **Reference**
 https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-codecommit.html
-ansible.windows.win_shell module – Execute shell commands on target hosts — Ansible Community Documentation
+[ansible.windows.win_shell module – Execute shell commands on target hosts — Ansible Community Documentation](https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html)
 
 
